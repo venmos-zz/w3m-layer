@@ -17,7 +17,7 @@ Helm-w3m https://github.com/emacs-helm/helm-w3m
 
 ** W3M
 *** W3M
-W3M http://w3m.sourceforge.net
+http://w3m.sourceforge.net
 *** OS X
 use homebrew install w3m
 #+BEGIN_SRC sh
