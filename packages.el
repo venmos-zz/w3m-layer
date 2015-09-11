@@ -4,7 +4,7 @@
 ;; Copyright (c) 2014-2015 venmos
 ;;
 ;; Author: Kuroi Mato <venmos@fuck.gfw.es>
-;; URL: https://github.com/w3m-layer
+;; URL: https://github.com/venmos/w3m-layer
 ;;
 ;; This file is not part of GNU Emacs.
 ;;
