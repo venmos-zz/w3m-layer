@@ -16,6 +16,8 @@ $ git clone https://github.com/venmos/w3m-layer
 $ ln -s ~/GitHub/w3m-layer ~/.emacs.d/layers/!tools/w3m
 #+END_SRC
 
+
+
 To use this contribution add it to your =~/.spacemacs=
 
 #+BEGIN_SRC emacs-lisp
@@ -30,6 +32,7 @@ $ brew install w3m
 #+END_SRC
 
 * Key Bindings
+** W3M Layer
 | Key Binding | Description        |
 |-------------+--------------------|
 | ~SPC a w g~ | W3M open url       |
@@ -37,3 +40,21 @@ $ brew install w3m
 | ~SPC a w b~ | Helm w3m bookmarks |
 | ~C-f~       | Page down          |
 | ~C-b~       | Page up            |
+
+** W3M
+| Key Binding | Description           |
+|-------------+-----------------------|
+| ~q~         | Close w3m             |
+| ~Q~        | Quit W3M              |
+| ~U~         | Open url              |
+| ~V~         | Open file             |
+| ~G~         | Open url to tag page  |
+| ~S~         | Use google seach      |
+| ~B~         | Back                  |
+| ~N~         | Forward               |
+| ~H~         | Home page             |
+| ~R~         | Refresh               |
+| ~a~         | Add page to bookmarks |
+| ~v~         | View bookmarks        |
+| ~E~         | Edit bookmarks        |
+| ~M~         | Use browser open page |
