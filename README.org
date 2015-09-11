@@ -10,7 +10,9 @@ to browse websites.
 use packages:
 
 W3M http://w3m.sourceforge.net
+
 Emacs-w3m http://emacs-w3m.namazu.org
+
 Helm-w3m https://github.com/emacs-helm/helm-w3m
 
 * Install
