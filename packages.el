@@ -42,11 +42,3 @@
   (define-key w3m-mode-map (kbd "C-f") 'evil-scroll-page-down)
   (define-key w3m-mode-map (kbd "C-b") 'evil-scroll-page-up)
   (define-key w3m-mode-map (kbd "SPC") 'evil-evilified-state))
-
-
-(setq w3m-home-page "http://www.google.com")
-(setq w3m-default-display-inline-images t)
-(setq w3m-default-toggle-inline-images t)
-(setq w3m-command-arguments '("-cookie" "-F"))
-(setq w3m-use-cookies t)
-(setq w3m-view-this-url-new-session-in-background t)
