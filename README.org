@@ -9,13 +9,20 @@ to browse websites.
 
 use packages:
 
-W3M http://w3m.sourceforge.net
-
 Emacs-w3m http://emacs-w3m.namazu.org
 
 Helm-w3m https://github.com/emacs-helm/helm-w3m
 
 * Install
+
+** W3M
+*** W3M
+W3M http://w3m.sourceforge.net
+*** OS X
+use homebrew install w3m
+#+BEGIN_SRC sh
+$ brew install w3m
+#+END_SRC
 
 ** Layer
 
@@ -28,13 +35,6 @@ To use this contribution add it to your =~/.spacemacs=
 
 #+BEGIN_SRC emacs-lisp
 (setq-default dotspacemacs-configuration-layers '(w3m))
-#+END_SRC
-
-** W3M
-*** OS X
-use homebrew install w3m
-#+BEGIN_SRC sh
-$ brew install w3m
 #+END_SRC
 
 * Key Bindings
