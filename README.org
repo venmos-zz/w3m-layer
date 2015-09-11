@@ -1,0 +1,34 @@
+#+TITLE: W3M contribution layer for Spacemacs
+
+* Description
+
+This layer groups together packages to work with W3M.
+
+It uses the W3M command line tool which allows users
+to browse websites.
+
+* Install
+
+** Layer
+
+To use this contribution add it to your =~/.spacemacs=
+
+#+BEGIN_SRC emacs-lisp
+(setq-default dotspacemacs-configuration-layers '(w3m))
+#+END_SRC
+
+** W3M
+*** OS X
+use homebrew install w3m
+#+BEGIN_SRC sh
+$ brew install w3m
+#+END_SRC
+
+* Key Bindings
+| Key Binding | Description        |
+|-------------+--------------------|
+| ~SPC a w g~ | W3M open url       |
+| ~SPC a w s~ | W3M Search         |
+| ~SPC a w b~ | Helm w3m bookmarks |
+| ~C-f~       | Page down          |
+| ~C-b~       | Page up            |
