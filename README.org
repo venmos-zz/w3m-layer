@@ -26,11 +26,6 @@ $ brew install w3m
 
 ** Layer
 
-#+BEGIN_SRC sh
-$ git clone https://github.com/venmos/w3m-layer
-$ ln -s ~/GitHub/w3m-layer ~/.emacs.d/layers/!tools/w3m
-#+END_SRC
-
 To use this contribution add it to your =~/.spacemacs=
 
 #+BEGIN_SRC emacs-lisp
