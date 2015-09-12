@@ -29,13 +29,17 @@
   "Initializes w3m and adds keybindings for its exposed functionalities."
   (use-package w3m
     :commands (w3m-goto-url
+               w3m-goto-url-new-session
                w3m-search
+               w3m-search-new-session
                )
     :init
     (progn
       (evil-leader/set-key
         "awg" 'w3m-goto-url
+        "awG" 'w3m-goto-url-new-session
         "aws" 'w3m-search
+        "awS" 'w3m-search-new-session
         ))))
 
 (with-eval-after-load 'w3m
