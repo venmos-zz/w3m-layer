@@ -61,13 +61,15 @@ To use this config add it to your =~/.spacemacs=
 
 * Key Bindings
 ** W3M Layer
-| Key Binding | Description        |
-|-------------+--------------------|
-| ~SPC a w g~ | W3M open url       |
-| ~SPC a w s~ | W3M Search         |
-| ~SPC a w b~ | Helm w3m bookmarks |
-| ~C-f~       | Page down          |
-| ~C-b~       | Page up            |
+| Key Binding | Description              |
+|-------------+--------------------------|
+| ~SPC a w g~ | W3M open url             |
+| ~SPC awG~   | W3M open url to tag page |
+| ~SPC a w s~ | W3M Search               |
+| ~SPC a w S~ | W3M Search to tag page   |
+| ~SPC a w b~ | Helm w3m bookmarks       |
+| ~C-f~       | Page down                |
+| ~C-b~       | Page up                  |
 
 ** W3M
 | Key Binding | Description           |
