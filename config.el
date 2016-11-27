@@ -12,6 +12,4 @@
 
 ;; Variables
 
-(setq w3m/key-binding-prefixes '(("aw" . "applications-w3m")))
-(mapc (lambda (x) (spacemacs/declare-prefix (car x) (cdr x)))
-      w3m/key-binding-prefixes)
+'(spacemacs/declare-prefix "aw" "applications-w3m")
